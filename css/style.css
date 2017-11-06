@@ -720,9 +720,14 @@ a:hover
 
 	#header-wrapper
 	{
-		background: url(../images/banner.jpg) no-repeat center top;
+		/*background: url(../images/banner.jpg) no-repeat center top;
 		background-size: cover;
-		position: relative;
+		position: relative;*/
+		background: url(../images/banner.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	}
 	
 	#header-wrapper:before
